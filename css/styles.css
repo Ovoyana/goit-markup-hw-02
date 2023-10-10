@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background: #fff;
+}
+ul {
+  list-style-type: none;
+}
+.logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo-web {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.nav-list-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.nav-list-link:hover,
+.nav-list-list:focus {
+  color: #4d5ae5;
+}
+.contacts-link {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.contacts-link:hover,
+.contacts:focus {
+  color: #4d5ae5;
+}
+/*main content*/
+.main-title {
+  color: #2e2f42;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 1.12px;
+}
+.click {
+  color: #fff;
+  background: #9747ff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
