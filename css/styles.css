@@ -33,7 +33,7 @@ ul {
   letter-spacing: 0.32px;
 }
 .nav-list-link-studio:hover,
-.nav-list-list:focus {
+.nav-list-link:focus {
   color: #404bbf;
 }
 .contacts-link {
@@ -44,8 +44,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.contacts-link:hover,
-.contacts:focus {
+.contacts-link:hover {
   color: #404bbf;
 }
 /*main content*/
@@ -78,8 +77,8 @@ ul {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
-  lettere-spacing: 0.2em;
+  line-height: 1.2;
+  lettere-spacing: 0.02em;
 }
 .motto-text {
   color: #434455;
@@ -100,9 +99,7 @@ ul {
   text-transform: capitalize;
   text-align: center;
 }
-.team-list {
-  background-color: #ffffff;
-}
+
 .item-title {
   color: #2e2f42;
   font-size: 20px;
@@ -124,7 +121,7 @@ ul {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.2em;
   text-transform: capitalize;
   text-align: center;
 }
