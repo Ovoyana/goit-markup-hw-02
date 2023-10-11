@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #2e2f42;
   background: #fff;
 }
@@ -48,8 +48,12 @@ ul {
   color: #4d5ae5;
 }
 /*main content*/
+
+.main-info {
+  background: #2e2f42;
+}
 .main-title {
-  color: #2e2f42;
+  color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.1;
@@ -57,10 +61,80 @@ ul {
 }
 .click {
   color: #fff;
-  background: #9747ff;
+  background: #4d5ae5;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+}
+.click:hover,
+.click:focus {
+  background: #404bbf;
   cursor: pointer;
+}
+.motto-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  lettere-spacing: 0.4px;
+}
+.motto-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.team {
+  background: #f4f4fd;
+}
+.team-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.item-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.occupation {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/*Our  Portfolio*/
+.achiewements-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.achievements-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.postscript {
+  background: #2e2f42;
+}
+.postscript-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
